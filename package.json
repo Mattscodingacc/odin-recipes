@@ -1,0 +1,15 @@
+{
+  "name": "the-odin-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start-http": "http-server . -p 3000",
+    "start": "live-server ./ --port=3000 --open"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "open": "^10.1.2"
+  }
+}
